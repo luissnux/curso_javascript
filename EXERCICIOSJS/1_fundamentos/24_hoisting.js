@@ -3,7 +3,7 @@ console.log('a =', a)
 var a = 2
 console.log('a =', a)
 
-// será executado um hosting (issamento), será exectudo dessa format
+// será executado um hosting (issamento), será executado dessa format
 // var a
 // console.log('a =', a)
 // a = 2
