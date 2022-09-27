@@ -3,3 +3,21 @@
 // escassez de kiwis”. Caso melancia, retorne: “Aqui está, são 3 reais o quilo”. Teste com estas três opções .Crie
 // também um default, que retornará uma mensagem de erro no console.
 
+vendaFrutas = fruta => {
+    switch (fruta) {
+        case 'maçã':
+            return 'Não vendemos essa fruta aqui.'
+            break
+        case 'kiwi':
+            return 'Estamos com escassez de kiwis.'
+            break
+        case 'melancia':
+            return 'Aqui está, são 3 reais o quilo.'
+            break
+        default:
+            return 'Não vendemos essa fruta.'
+
+    }
+}
+
+console.log(vendaFrutas('melancia'))
