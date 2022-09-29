@@ -26,3 +26,5 @@ calculadora = (n1, operacao, n2) => {
 }
 
 console.log(calculadora(2, '+', 2))
+
+
