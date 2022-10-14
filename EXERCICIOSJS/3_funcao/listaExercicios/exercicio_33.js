@@ -9,5 +9,7 @@ const vetorString = ['maça', 'uva', 'banana', 'laranja']
 const vetorDouble = [1.3, 2.5, 3.6, 6.7]
 
 for(let i = 0; i < 4; i++) {
-    console.log(vetorInterio[i].concat(vetorString[i]))
+    console.log(`${vetorString[i]} `.concat(`${vetorInterio[i]} `).concat(vetorDouble[i]))
 }
+
+console.log(vetorInterio.concat(vetorString.concat(vetorDouble)))
